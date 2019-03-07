@@ -6,7 +6,7 @@ import MessageForm from "./MessageForm";
 import Message from "./Message";
 import { now } from "moment";
 import Goose from '../../img/goose.jpeg';
-import Rostyk from '../../img/rostyk.jpeg';
+import Cock from '../../img/cock.jpg';
 
 class Messages extends React.Component {
 
@@ -30,20 +30,20 @@ class Messages extends React.Component {
       timestamp: Date.now(),
       message: "Message",
       user: {
-        name: "Roman",
+        name: "Goose",
         avatar: Goose
 
       },
-      content: 'За кого то голосувати на виборах?'
+      content: 'Ти чув, що Maruv не їде на євробачення ?'
     },
     {
       timestamp: Date.now(),
       message: "Message",
       user: {
-        name: "Rostyk",
-        avatar: Rostyk
+        name: "Cock",
+        avatar: Cock
       },
-      content: "Я за Тимошенчиху"
+      content: "Ти ся вспокоїш вже з тим?"
     }]
     const { messages } = this.state;
     return (
