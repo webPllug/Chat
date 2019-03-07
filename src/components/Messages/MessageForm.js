@@ -18,15 +18,13 @@ class MessageForm extends React.Component {
           onChange={this.handleChange}
           value={message}
           style={{ marginBottom: "0.7em" }}
-          label={<Button icon={"add"} />}
-          labelPosition="left"
           placeholder="Write your message"
         />
         <Button.Group icon widths="2">
           <Button
             onClick={this.sendMessage}
             color="orange"
-            content="Add Reply"
+            content="Send"
             labelPosition="left"
             icon="edit"
           />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Header, Icon, Dropdown, Image } from "semantic-ui-react";
+import Goose from '../../img/goose.jpeg';
 
 class UserPanel extends React.Component {
 
@@ -41,6 +42,7 @@ class UserPanel extends React.Component {
               <Dropdown
                 trigger={
                   <span>
+                    <Image src={Goose} spaced="right" avatar />
                     User
                   </span>
                 }
